@@ -5,6 +5,12 @@ if (isset($_POST['submit'])){
         echo "<pre>";
         print_r($_POST);
         echo "<pre>";
+
+        echo "<br> in ra tung input nhap vao";
+        $email =  $_POST['email'];
+        $passwork = $_POST['password'];
+        echo "<br> ". $email;
+        echo "<br> " .$passwork;
     }
 }
 ?>
